@@ -43,4 +43,49 @@
 		</dependency>
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<id>id.au.rzem.global</id>
+			<url>https://repo.rzem.id.au/artifactory/global</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<!-- 
+		<repository>
+			<id>id.au.rzem.ping</id>
+			<url>https://repo.rzem.id.au/artifactory/ping</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>id.au.rzem.releases</id>
+			<url>https://repo.rzem.id.au/artifactory/releases</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>id.au.rzem.snapshots</id>
+			<url>https://repo.rzem.id.au/artifactory/snapshots</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+		-->
+	</repositories>
+
 </project>
